@@ -18,5 +18,6 @@
             outTask += '<div class="output">' + todoList[i] +'</div>';
         }
         document.getElementById("output").innerHTML = outTask;
+        document.getElementById("in").value = ""
         return outTask;
     }
