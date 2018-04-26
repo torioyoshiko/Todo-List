@@ -1,5 +1,5 @@
 body {
-
+    background-color: #eeeeee;
 }
 
 header {
@@ -8,26 +8,37 @@ header {
     justify-content: flex-start;
     align-items: center;
     width: 100%;
-    background-color: darkgray;
+    background-color: #993399;
+    color: #fff;
     border-radius: 10px;
 }
 
 header input {
     margin: 10px;
     padding: 5px;
+    background-color: #eeeeee;
 }
 
 header button {
     width: 30px;
     height: 30px;
     cursor: pointer;
+    border-radius: 25px;
+    outline: none;
 }
 
 .output {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: darkgrey;
+    background-color: #993399;
+    color: #fff;
     margin: 5px 0 5px 0;
+    padding: 5px;
     border-radius: 5px;
+    flex-wrap: nowrap;
+}
+
+.put {
+    border-radius: 10px;
 }

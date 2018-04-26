@@ -15,7 +15,7 @@
     function out() {
         let outTask = '';
         for (let i = 0; i < todoList.length; i++) {
-            outTask += '<div class="output">' + todoList[i] + '</div>';
+            outTask += '<div class="output">' + todoList[i] +'</div>';
         }
         document.getElementById("output").innerHTML = outTask;
         return outTask;
